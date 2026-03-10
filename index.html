@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Bootcamp - Login</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <div class="card auth-card">
+      <h1>Bootcamp App</h1>
+
+      <div id="auth-forms">
+        <div id="login-form">
+          <h2>Iniciar sesión</h2>
+          <input id="login-email" placeholder="Email" type="email">
+          <input id="login-pass" placeholder="Contraseña" type="password">
+          <button id="btn-login">Entrar</button>
+          <p>¿No tienes cuenta? <a href="#" id="show-register">Regístrate</a></p>
+        </div>
+
+        <div id="register-form" style="display:none;">
+          <h2>Registro</h2>
+          <input id="reg-name" placeholder="Nombre" type="text">
+          <input id="reg-email" placeholder="Email" type="email">
+          <input id="reg-pass" placeholder="Contraseña" type="password">
+          <button id="btn-register">Registrar</button>
+          <p>¿Ya tienes cuenta? <a href="#" id="show-login">Inicia sesión</a></p>
+        </div>
+      </div>
+
+      <div id="msg" class="msg"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard - Bootcamp</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Dashboard</h1>
+    <div>
+      <span id="user-name"></span>
+      <button id="logout">Cerrar sesión</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Crear nueva actividad</h2>
+      <input id="act-title" placeholder="Título">
+      <textarea id="act-desc" placeholder="Descripción"></textarea>
+      <textarea id="act-payload" placeholder='Payload interactivo JSON (ej: {"question":"¿2+2?","answer":"4"})'></textarea>
+      <button id="create-act">Crear actividad</button>
+    </section>
+
+    <section class="card">
+      <h2>Tus actividades</h2>
+      <div id="activities-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
