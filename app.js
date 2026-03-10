@@ -1,4 +1,4 @@
-const API_BASE = 'https://TU_BACKEND_URL/api'; // <- cambiar por la URL de Render o localhost:4000/api
+const API_BASE = 'https://project-fullstack-backend-nbdj.onrender.com'; // <- cambiar por la URL de Render o localhost:4000/api
 
 // --- Helper ---
 function setToken(token) { localStorage.setItem('token', token); }
