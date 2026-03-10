@@ -1,2 +1,2 @@
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://project-fullstack-backend-nbdj.onrender.com';
